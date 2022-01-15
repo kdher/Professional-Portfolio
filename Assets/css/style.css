@@ -25,17 +25,19 @@ body {
 
 header {
   padding: 20px 35px;
-  background-color: #0a2527;
+  background-color:hsl(235, 78%, 21%);
   display:flex;
   justify-content: space-between;
   flex-wrap: wrap;
+
  
 }
 
 header h1 {
   font-weight: bold;
   font-size: 36px;
-  color: var(--primary-color);
+  font-family: 'Changa', sans-serif;
+  color: rgb(131, 195, 247);
   margin: 0;
 }
 
@@ -44,6 +46,7 @@ header nav {
 }
 
 header nav ul {
+  font-family: 'Changa', sans-serif;
 display: flex;
 flex-wrap: wrap;
 
@@ -55,14 +58,14 @@ header nav ul li a {
   margin: 0 30px;
   font-weight: lighter;
   font-size: 1.3vw;
-  color: var(--primary-color);
+  color: rgb(131, 195, 247);
   text-decoration: none;
   border-bottom: 2px solid;
   padding-bottom: 2px;
 }
 
     nav a:hover {
-  color: rgb(176, 229, 253);
+  color: white;
     }
  
 .article-content nav {
@@ -107,9 +110,10 @@ justify-content: space-between;
     position: absolute;
     top: 150px;
     left: 30px;
-   border: 3px var(--purple-color) solid;
+   border: 3px rgb(131, 195, 247); solid;
     height:150px;
     width: 150px;
+    border-radius: 10px;
   }
 
 main section {
@@ -122,14 +126,19 @@ main section {
 }
 
 .article-heading {
-	flex: 1;
-	border-right: 4px dashed var(--whitish);
-  justify-content: center;
+  width: 350px;
+	padding: 20px 10px;
+  font-family: 'Changa', sans-serif;
+	border-right: 9px dashed var(--whitish);
+ 
 }
 
 .article-heading h3 {
+  display: inline;
 	font-size: 2.7rem;
 	line-height: 2;
+  margin: auto;
+  align-items: center;
 }
 
 .article-content {
@@ -165,36 +174,66 @@ main section {
 
   #portafolio {
     flex: auto;
-    border: 2px solid #0a2527;
-  }
-  .cuadro {
-    padding:  50px;
-    margin: 10px;
-    border: 2px solid orange;
-  }
-
-  .works{
-   
-    padding: 10px;
-    border: 2px solid orange;
+    
   }
   
+
+  .works{
+    flex-wrap: wrap;
+    width: 130vh;
+    margin: auto;
+    padding: 10px; 
+  } 
+  
+  .cuadro {
+    
+    margin: 10px;
+    width: 700px;
+    height: 450px;
+    flex-grow: 1;
+  }
     .pages {
-      display: block;
-      padding:  50px;
+      flex-grow: 1;
+      width: 310px; 
+      height: 150px;
       margin: 10px;
-     border: 2px solid orange;
-    
-     
-    
     }
+    .works img {
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
+    }
+    .works img.cuadro {
+      object-fit: fill;
+    }
+    
+    .works img.pages {
+      object-fit: fill;
+    }
+
   
   #contact-me ul li {
     margin-top: 10px;
   }
-  
-  #contact-me ul li a {
+  .contact-me{
+    margin: auto;
+  }
+  .contact-me ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: left;
+    list-style: none;
+    margin: 35px auto;
+    width: 100%;  
+    }
+  .contact-me ul li a {
     color: var(--whitish);
+    margin: 0 30px;
+      font-size: 18px;
+      text-decoration: none;
+      border-bottom: 3px solid;
+      
   }
   
 
@@ -206,8 +245,8 @@ main section {
     justify-content: center;
     align-items: center;
     min-height: 50px;
-    background-color: var(--whitish);
-    color: var(--white-color);
+    background-color: hsl(235, 78%, 21%);
+    color: rgb(131, 195, 247);
   }
   
   footer span {
