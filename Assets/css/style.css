@@ -41,6 +41,7 @@ header h1 {
   margin: 0;
 }
 
+
 header nav {
   margin: 7px 0;
 }
@@ -180,17 +181,55 @@ main section {
 
   .works{
     flex-wrap: wrap;
+    position: relative;
     width: 130vh;
     margin: auto;
     padding: 10px; 
   } 
-  
   .cuadro {
-    
+    transition: transform .1s ease;
+  }
+  .cuadro:hover {
+      transform: scale(1.1);
+  }
+  .cuadro img:hover {
+    opacity: 1;
+  }
+.pages{
+  transition: transform .1s ease;
+}
+
+  .pages:hover {
+    transform: scale(1.1);
+}
+.pages img:hover {
+  opacity: 1;
+}
+.cuadro img {
+  opacity: .5;
+  transform: translate(0,0);
+  /*
+  Change the opacity value to change how "faded" you want the image to appear when it is not hovered.
+  */
+  transition: opacity .25s ease-in-out;
+}
+.pages img {
+  opacity: .5;
+  transform: translate(0,0);
+  /*
+  Change the opacity value to change how "faded" you want the image to appear when it is not hovered.
+  */
+  transition: opacity .25s ease-in-out;
+}
+
+  .cuadro {
+    position: relative;
     margin: 10px;
     width: 700px;
     height: 450px;
     flex-grow: 1;
+    
+  
   }
     .pages {
       flex-grow: 1;
@@ -210,6 +249,68 @@ main section {
     .works img.pages {
       object-fit: fill;
     }
+
+.text  h2{
+
+  position: absolute;
+    border-radius: 5px;
+    top: 400px;
+    left: 0;
+    font-style: italic;
+    font-size: 28px;
+    color: var(--primary-color);
+    
+    background-color:rgb(229, 232, 238);
+}
+
+.text1  h2{
+
+  position: absolute;
+    border-radius: 5px;
+    top: 590px;
+    left: 20px;
+    font-style: italic;
+    font-size: 28px;
+    color: var(--primary-color);
+    
+    background-color:rgb(229, 232, 238);
+}
+.text2  h2{
+
+  position: absolute;
+    border-radius: 5px;
+    top: 760px;
+    left: 457px;
+    font-style: italic;
+    font-size: 28px;
+    color: var(--primary-color);
+    
+    background-color:rgb(229, 232, 238);
+}
+.text3  h2{
+
+  position: absolute;
+    border-radius: 5px;
+    top: 760px;
+    left: 20px;
+    font-style: italic;
+    font-size: 28px;
+    color: var(--primary-color);
+    
+    background-color:rgb(229, 232, 238);
+}
+.text4  h2{
+
+  position: absolute;
+    border-radius: 5px;
+    top: 590px;
+    left: 457px;
+    font-style: italic;
+    font-size: 28px;
+    color: var(--primary-color);
+    
+    background-color:rgb(229, 232, 238);
+}
 
   
   #contact-me ul li {
@@ -236,7 +337,7 @@ main section {
       
   }
   
-
+ 
 
   /* footer stylings here */
   footer {
