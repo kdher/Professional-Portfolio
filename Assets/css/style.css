@@ -232,10 +232,11 @@ main section {
   
   }
     .pages {
-      flex-grow: 1;
+     position: relative;
       width: 310px; 
       height: 150px;
       margin: 10px;
+      flex-grow: 1;
     }
     .works img {
       width: 100%;
@@ -256,10 +257,10 @@ main section {
     border-radius: 5px;
     top: 400px;
     left: 0;
-    font-style: italic;
+   
     font-size: 28px;
     color: var(--primary-color);
-    
+    font-family: 'Changa', sans-serif;
     background-color:rgb(229, 232, 238);
 }
 
@@ -267,48 +268,48 @@ main section {
 
   position: absolute;
     border-radius: 5px;
-    top: 590px;
-    left: 20px;
-    font-style: italic;
+    top: 100px;
+    left: 10px;
+    
     font-size: 28px;
     color: var(--primary-color);
-    
+    font-family: 'Changa', sans-serif;
     background-color:rgb(229, 232, 238);
 }
 .text2  h2{
 
   position: absolute;
     border-radius: 5px;
-    top: 760px;
-    left: 457px;
-    font-style: italic;
+    top: 100px;
+    left: 320px;
+   
     font-size: 28px;
     color: var(--primary-color);
-    
+    font-family: 'Changa', sans-serif;
     background-color:rgb(229, 232, 238);
 }
 .text3  h2{
 
   position: absolute;
     border-radius: 5px;
-    top: 760px;
-    left: 20px;
-    font-style: italic;
+    top: 100px;
+    left: 10px;
+   
     font-size: 28px;
     color: var(--primary-color);
-    
+    font-family: 'Changa', sans-serif;
     background-color:rgb(229, 232, 238);
 }
 .text4  h2{
 
   position: absolute;
     border-radius: 5px;
-    top: 590px;
-    left: 457px;
-    font-style: italic;
+    top: 100px;
+    left: 290px;
+    
     font-size: 28px;
     color: var(--primary-color);
-    
+    font-family: 'Changa', sans-serif;
     background-color:rgb(229, 232, 238);
 }
 
