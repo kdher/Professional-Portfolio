@@ -78,7 +78,10 @@ header nav ul li a {
   padding-bottom: 2px;
 }
 
-
+.article-content  h2 {
+	font-size: 1.5rem;
+	color: var(--primary-color);
+}
 
 .article-content nav ul {
   display: flex;
@@ -156,10 +159,10 @@ main section {
     display: block  ;
   }
   
-  .article-content article h1 {
+  .article-content p {
     padding-top: 0;
-    font-size: 3rem;
-    color: var(--blackish-green);
+    font-size: 1.2rem;
+    color: var(--primary-color);
   }
   
   .article-content article h2 {
