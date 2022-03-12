@@ -228,8 +228,8 @@ main section {
   .cuadro {
     position: relative;
     margin: 10px;
-    width: 700px;
-    height: 450px;
+    width: 300px;
+    height: 350px;
     flex-grow: 1;
     
   
@@ -258,8 +258,8 @@ main section {
 
   position: absolute;
     border-radius: 5px;
-    top: 400px;
-    left: 0;
+    top: 300px;
+    left: 30;
    
     font-size: 28px;
     color: var(--primary-color);
@@ -267,6 +267,25 @@ main section {
     background-color:rgb(229, 232, 238);
 }
 
+.icono {
+  position: absolute;
+    border-radius: 7px;
+    top: 300px;
+    left: 370px;
+    color: black;
+    font-size: 8px;
+    background-color:rgb(229, 232, 238);
+}
+
+.iconos {
+  position: absolute;
+    border-radius: 7px;
+    top: 100px;
+    left: 370px;
+    color: black;
+    font-size: 8px;
+    background-color:rgb(229, 232, 238);
+}
 .text1  h2{
 
   position: absolute;
@@ -284,7 +303,7 @@ main section {
   position: absolute;
     border-radius: 5px;
     top: 100px;
-    left: 293px;
+    left: 10px;
    
     font-size: 28px;
     color: var(--primary-color);
@@ -308,7 +327,7 @@ main section {
   position: absolute;
     border-radius: 5px;
     top: 100px;
-    left: 165px;
+    left: 10px;
     
     font-size: 28px;
     color: var(--primary-color);
